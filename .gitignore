@@ -1,0 +1,81 @@
+# DO NOT ADD THE WRAPPER
+llm_provider.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variable files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Logs and runtime
+*.log
+*.pid
+*.gz
+
+# Python cache
+*.cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+pytest_cache/
+
+# Config/Secrets
+*.db
+*.sqlite3
+*.pem
+*.key
+secrets.json
+config_local.json
+
+# LLM specific (optional, depending on your workflow)
+vector_store/
+agent_state/
+memory.json
+scratchpad.json
+
+# Docker
+docker-compose.override.yml
+*.container.log
+
+# Node/npm (if frontend or LangGraph tooling is included)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# MacOS
+.DS_Store
+
+# Other user/system files
+*.swp
+*.bak
+*.tmp
+*.orig
