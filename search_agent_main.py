@@ -1,7 +1,6 @@
 # search_agent_main.py
 """
 Adapted from https://github.com/Sujar-Henry/AI_Search_Agent/blob/main/search_agent/main.py
-for IBM Watsonx LLM via your generic wrapper and .env config.
 """
 import logging
 import os

@@ -54,7 +54,7 @@ pytest_cache/
 secrets.json
 config_local.json
 
-# LLM specific (optional, depending on your workflow)
+# LLM specific
 vector_store/
 agent_state/
 memory.json
@@ -64,7 +64,7 @@ scratchpad.json
 docker-compose.override.yml
 *.container.log
 
-# Node/npm (if frontend or LangGraph tooling is included)
+# Node/npm 
 node_modules/
 npm-debug.log
 yarn-error.log
